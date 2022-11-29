@@ -1,0 +1,30 @@
+{
+  "name": "cross-fetch-ponyfill",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fetch polyfilled in Node only",
+  "main": "node.js",
+  "browser": "browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaUnknown/cross-fetch-ponyfill.git"
+  },
+  "keywords": [
+    "fetch",
+    "ponyfill",
+    "node",
+    "browser"
+  ],
+  "author": "ThaUnknown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThaUnknown/cross-fetch-ponyfill/issues"
+  },
+  "homepage": "https://github.com/ThaUnknown/cross-fetch-ponyfill#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
