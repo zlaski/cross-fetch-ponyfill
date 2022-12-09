@@ -1,10 +1,16 @@
 {
   "name": "cross-fetch-ponyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Fetch polyfilled in Node only",
-  "main": "node.js",
-  "browser": "browser.js",
+  "exports": {
+    "node": "./node.js",
+    "default": "./browser.js"
+  },
+  "browser": {
+    "node-fetch": false,
+    "abort-controller": false
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +31,7 @@
   },
   "homepage": "https://github.com/ThaUnknown/cross-fetch-ponyfill#readme",
   "dependencies": {
+    "abort-controller": "^3.0.0",
     "node-fetch": "^3.3.0"
   }
 }
