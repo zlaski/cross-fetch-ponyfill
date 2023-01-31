@@ -1,13 +1,20 @@
 {
   "name": "cross-fetch-ponyfill",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Fetch polyfilled in Node only",
+  "main": "index.js",
   "exports": {
-    "node": "./node.js",
+    "node": "./_node.js",
     "default": "./browser.js"
   },
   "browser": {
+    "index.js": "browser.js",
+    "node-fetch": false,
+    "abort-controller": false
+  },
+  "chromeapp": {
+    "index.js": "browser.js",
     "node-fetch": false,
     "abort-controller": false
   },
