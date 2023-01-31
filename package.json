@@ -1,11 +1,12 @@
 {
   "name": "cross-fetch-ponyfill",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "Fetch polyfilled in Node only",
   "main": "index.js",
   "exports": {
     "node": "./_node.js",
+    "browser": "./browser.js",
     "default": "./browser.js"
   },
   "browser": {
