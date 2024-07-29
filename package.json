@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zlaski/cross-fetch-ponyfill.git"
+    "url": "https://github.com/zlaski/cross-fetch-ponyfill.git"
   },
   "keywords": [
     "fetch",
